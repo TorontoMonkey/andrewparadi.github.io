@@ -17,3 +17,4 @@
 .zsh_history
 .zshrc
 .oh-my-zsh
+_site/**
