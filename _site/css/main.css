@@ -142,6 +142,10 @@ pre {
   .icon > svg path {
     fill: #828282; }
 
+.social {
+  width: 1.4rem;
+  color: #828282; }
+
 /**
  * Site header
  */
