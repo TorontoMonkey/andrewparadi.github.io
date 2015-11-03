@@ -181,10 +181,12 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    //display: inline;
+    margin-left: 2em;
 }
 
 .post-link {
-    display: block;
+    display: inline-block;
     font-size: 24px;
 }
 

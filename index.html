@@ -4,20 +4,19 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <img class="hero" src="/img/hero/{{ site.index_hero }}"/>
+
+<!--   <h1 class="page-heading">Andrew Paradi</h1> -->
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span class="post-meta">Posted {{ post.date | date: "%b %-d, %Y" }} in {{ post.categories | categories: "%c " }}</span>
         </h2>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
