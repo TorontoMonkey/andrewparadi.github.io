@@ -12,7 +12,8 @@ layout: home
     {% for post in site.posts %}
       <li>
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span class="post-meta">Posted {{ post.date | date: "%b %-d, %Y" }} in {{ post.categories | categories: "%c " }}</span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><span class="post-meta">Posted {{ post.date | date: "%b %-d, %Y" }} in {{ post.tags | tags: " %c " }}</span>
+<!--           {{ post.categories | categories: " %c " }} -->
         </h2>
         <p class="post-excerpt">{{ post.excerpt }}</p>
       </li>

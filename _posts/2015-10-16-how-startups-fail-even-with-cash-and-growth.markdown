@@ -2,7 +2,8 @@
 layout: post
 title:  "How Startups Fail Even with Cash and Growth"
 date:   2015-10-16 16:33:11
-categories: startups
+categories: blog
+tags: startups
 excerpt: Are you Default Alive or Default Dead? You need to read Paul Graham's latest post and honestly figure out your startup's answer.
 ---
 Everybody in startups should be reading Paul Graham's essays. He just hit it out of the park again. Go read <a href="http://paulgraham.com/aord.html" target="_blank">"Default Alive or Default Dead?"</a> and then come back.<!--more-->
@@ -24,10 +25,10 @@ I'm just speechless how clearly this explains the systematic failure inherent in
 
 Founders are baited by initial VC money to optimize for quick launch and fast growth. This all to the peril of building a product and business model that will last.
 
-It's easy to dismiss this and believe that your startup and perspective is different. Yet, too many founders are blind leading the blind. 
+It's easy to dismiss this and believe that your startup and perspective is different. Yet, too many founders are blind leading the blind.
 
 Many startup cultures don't encourage any employees to voice concerns or ask questions. Founders spin anything to reinforce their viewpoint that success will come with the next founding round or growth spurt.
 
-I wish more founders would step back and realize if they're default dead or default alive. I didn't do this myself in Teknically and regret the ultimate cost of our "it's going great" culture. 
+I wish more founders would step back and realize if they're default dead or default alive. I didn't do this myself in Teknically and regret the ultimate cost of our "it's going great" culture.
 
 Looking back, we were default dead. We just didn't realize it until we had died.
